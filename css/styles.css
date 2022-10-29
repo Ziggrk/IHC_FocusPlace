@@ -62,7 +62,7 @@ hr {
     height: 2px;
     background-color: #2196f3;
     border: 0;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 1000px){
@@ -201,13 +201,13 @@ header nav li:last-child {
 /* /.about-us */
 /* Section About Us */
 
-
 .about-us {
     position: relative;
     justify-content: center;
     min-height: 100vh;
     color: #000000;
     text-align: center;
+    padding: 40px 50px;
 }
 .about-us h1{
     font-family: 'Montserrat';
@@ -219,6 +219,41 @@ header nav li:last-child {
     height: 2px;
     background-color: #2196f3;
     border: 0;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
+/* /.services */
+/* Section Our Services */
+.services{
+    background-color:#7ad9ff;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 50px;
+}
+.services h1{
+    font-family: 'Montserrat';
+    font-size: 45px;
+}
+/* Para el interlineado de los parrafos, no se si ponerlo.
+.services p{
+    line-height : 25px;
+}
+*/
+.services h3{
+    font-family: 'Montserrat';
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+.box1{
+    margin: 50px 25px;  
+}
+
+.box2{
+    margin: 50px 25px;
+}
