@@ -278,7 +278,7 @@ header nav li:last-child {
 .advantages ul {
     margin-top:  20px;
     list-style-type: none;
-    text-align: center
+    text-align: center;
 }
   
 .advantages li {
@@ -339,18 +339,40 @@ header nav li:last-child {
     font-size: 16px;
     margin-top: 10px;
 }
-@media (max-width: 800px){
+@media (max-width: 950px){
     .contact-students {
         min-height: 600px;
+        padding: 10px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .contact-students h3{
-        font-size: 48px;
+        font-size: 16px;
+        margin-left: 240px;
+        margin-right: 0px;
     }
     .contact-students p{
-        font-size: 24px;
+        font-size: 14px;
+        margin-left: 240px;
+        margin-right: -20px;
+    }
+    .contact-students form p{
+        font-size: 15 px;
+        margin-left: 10px;
+        margin-right: 400px;
+    }
+    .contact-students form input{
+        font-size: 15 px;
+        margin-left: 10px;
+        margin-right: 490px;
+    }
+    .contact-students form select{
+        font-size: 15 px;
+        margin-left: 10px;
+        margin-right: 490px;
     }
     .contact-students a.btn{
-        padding:15px 40px;
+        padding:15px 10px;
     }
 }
 /* Footer */
