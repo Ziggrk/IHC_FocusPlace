@@ -257,3 +257,66 @@ header nav li:last-child {
 .box2{
     margin: 50px 25px;
 }
+
+/* Advantages */
+
+
+.advantages .style-one{
+    font-family:'Montserrat';
+    font-size: 30px;
+    margin-bottom: 15px; 
+    color: #000000;
+}
+
+.advantages .style-two {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    margin-bottom: 15px; 
+    color: #0011ff;
+}
+
+.advantages ul {
+    margin-top:  20px;
+    list-style-type: none;
+    text-align: center
+}
+  
+.advantages li {
+    display: inline;
+}
+
+
+/* Footer */
+
+footer{
+    background-color:#7ad9ff;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+.footer .box1{
+    margin: 50px 25px;  
+}
+
+.footer .box2{
+    margin: 50px 25px;
+}
+
+.box1 ul {
+    margin-top:  20px;
+    list-style-type: none;
+    text-align: center
+}
+  
+.box1 li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+footer h2{
+    font: bold 22px 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
