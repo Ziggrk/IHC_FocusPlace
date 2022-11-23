@@ -285,7 +285,74 @@ header nav li:last-child {
     display: inline;
 }
 
+/* Section Contact */
+.contact-students{
+    background-color:#1260d6;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 50px;
+}
 
+.contact-students h3{
+    font-family: 'Montserrat';
+    color:#ffffff;
+    font-size: 30px;
+    margin-bottom: 15px; 
+    margin-top: 10px;
+}
+.contact-students p{
+    font-family: 'Montserrat';
+    color:#ffffff;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.contact-students form p{
+    font-family: 'Montserrat';
+    color:#ffffff;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.contact-students form input{
+    font-family: 'Montserrat';
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding: 11px 10px;
+}
+.contact-students form select{
+    font-family: 'Montserrat';
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding: 11px 10px;
+}
+.contact-students a.btn{
+    padding: 20px 40px;
+    background-color: #000000;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.contact-students a.btn:hover{
+    padding: 20px 40px;
+    background-color: #000000;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+@media (max-width: 800px){
+    .contact-students {
+        min-height: 600px;
+    }
+    .contact-students h3{
+        font-size: 48px;
+    }
+    .contact-students p{
+        font-size: 24px;
+    }
+    .contact-students a.btn{
+        padding:15px 40px;
+    }
+}
 /* Footer */
 
 footer{
