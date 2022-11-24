@@ -406,6 +406,60 @@ footer{
 }
  
 footer h2{
-    font: bold 22px 'Open Sans', sans-serif;
+    font: bold 26px 'Open Sans', sans-serif;
     margin-bottom: 15px;
+}
+
+
+/* WORK US*/
+
+.work-us h3{
+    font-family: 'Montserrat';
+    margin-bottom: 140px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.work-us p{
+    font-family: 'Montserrat';
+    margin-bottom: 46px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+b {
+	text-decoration: none;
+	color: inherit;
+	opacity: 0.9;
+}
+
+b.btn{
+    color: #004AAD;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
+b:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.work-us b.btn {
+    padding: 20px 46px;
+    background-color: #ffe05d;
+}
+
+.work-us b.btn:hover{
+    padding: 20px 46px;
+    background-color: #FDCA00;
+}
+
+@media (max-width: 800px){
+    .work-us b.btn{
+        padding:15px 40px;
+    }
 }
