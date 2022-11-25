@@ -463,3 +463,42 @@ b:hover {
         padding:15px 40px;
     }
 }
+
+/*Comments*/
+
+.comments{
+
+    background-color: #FDCA00;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.cm-image{
+
+    
+    width: 100%;
+    height: 650px;
+
+}
+
+.cm-image img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.listComments img{
+
+    width: 100%;
+
+}
+
+.comments li {
+
+    margin-top: 5px;
+    margin-bottom: 5px; 
+
+}
